@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<style><!--
+			body	{width: 80%; margin: 5% 10%; font-family: "Lucida-Grande", "Tahoma", sans-serif; background-color: #DDDEFF;}
+			p		{text-indent: 3em;}
+		--></style>
+	</head>
+	<body>
+	
+	<h1>iPhone Protocol for Sending Serial Datastream via Line-in Jack</h1>
+
+	<h2>Thanks for downloading this bundle!</h2>
+	<p>This collection of files provides the foundation to send a serial stream of data to the iPhone through the line-in 
+	conductor of headphone jack from an Arduino micro-controller.  Although you could accomplish this feat with minimal 
+	hardware, the following components are recommended, and will be referenced throughout this document:
+	</p>
+	
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>Component</th>
+			<th>What we used</th>
+		</tr>
+		<tr>
+			<td>Arduino micro-controller</td>
+			<td>(Duemilanove ATmega 328)</td>
+		</tr>
+		<tr>
+			<td>iPhone/iPod touch</td>
+			<td>(iPhone 3GS)</td>
+		</tr>
+		<tr>
+			<td>4-pin (TRRS) 1/8" connector</td>
+			<td>(on sale <a href="http://www.kvconnection.com/3-5mm-4-Conductor-Cable-Connectors-s/5915.htm">here)</a></td>
+		</tr>
+		<!--
+		<tr>
+			<td></td>
+			<td>()</td>
+		</tr>
+		-->
+	</table>
+
+<hr>
+	<p>A brief note: this project is in its infancy of development, and is are assuredly much room for improvement.  
+	If you have any changes you'd like to make, please let me know or post the changes wherever you found this code 
+	in the first place.
+	</p>
+<hr>
+
+	<h2>Xcode Files</h2>
+	<p>Below is a list of the files included in the main classes directory of the Xcode project of this download.
+	A brief explination of each file is listed to the right.
+	</p>
+
+	<h3>Main Class Files</h3>
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><em>SineMaker</em> (h/m)</td>
+			<td>Sine generator class which creates, plays and stops the sine wave(s), and adds an optional tremolo effect.</td>
+		</tr>
+		<tr>
+			<td><em>avTouchController</em> (h/mm)</td>
+			<td>Class borrowed from Apple's sample code; enables music playback (utilized on the MusicView).</td>
+		</tr>
+		<tr>
+			<td><em>WiiNunchuckAppDelegate</em> (h/mm)</td>
+			<td>Application delegate, instantiates the MUEAudioIO object, as well as the SampleAudioUnit.</td>
+		</tr>
+		<tr>
+			<td><em>MainViewController</em> (h/mm)</td>
+			<td>Represents the "Synthesize" view in the app, reads all received values from input stream, declares sound
+			objects to be played back, and monitors changing values while synced with the Arduino.</td>
+		</tr>
+		<tr>
+			<td><em>SettingsViewController</em> (h/mm)</td>
+			<td>Monitors all user-changeable parameters, including synth modes, use of iPhone acceleration, and number of sine tones.</td>
+		</tr>
+		<tr>
+			<td><em>SampleAudioUnit</em> (h/mm)</td>
+			<td>Audio-processing shell which parses the incomming stream of audio and breaks apart the pulses received into 
+			intelligible binary values.  The values are also collected, averaged, and sent to the MainViewController from this file.</td>
+		</tr>
+		<tr>
+			<td><em>AboutViewController</em> (h/m)</td>
+			<td>View controller managing the AboutView (empty).</td>
+		</tr>
+		<tr>
+			<td><em>InfoViewController</em> (h/m)</td>
+			<td>View controller managing the InfoView, consiting of a simple WebView and infoButton.</td>
+		</tr>
+	</table>
+	
+	<p>Within the Xcode project's classes folder, two subgroups exist, each with its own files.  The <em>AVPlayback</em> 
+	group contains files copied verbatim from a sample project available on Apple's developer website, and the contents of
+	which are used for music playback on the <em>Music</em> tab of the iPhone application.  Therefore, I will not go
+	detail describing code I did not write.
+	</p>
+	<p>The <em>MUEAudioIO</em> subgroup is a vital set of files which initializes the audio session and handles the input
+	stream of audio from the currently active input route.
+	</p>
+	
+	<h3>MUEAudioIO Files</h3>
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><em>Filter</em> (h/cpp)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><em>AudioBasics</em> (h/cpp)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><em>CADebugMacros</em> (h/cpp)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><em>CAStreamBasicDescription</em> (h/cpp)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><em>MUEAudioUnit</em> (h)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><em>MUEAudioIO</em> (h/cpp)</td>
+			<td></td>
+		</tr>
+	</table>
+	
+	
+	<h2>Arduino Files</h2>	
+	
+	<h3>Main Class Files</h3>
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><em>*file_name*</em> (*file_ext(s)*)</td>
+			<td></td>
+		</tr>
+	</table>
+
+	<h2>About the Developers</h2>
+
+	<img src="../beans.gif" ALT="Fuck my cock" style="float: right; margin: 0 15px; border: 1px solid black;" />
+		<p>Sam and Eddie are a couple of lazy joes with not much more than a few bright ideas, and an overwhelming and constant
+	thirst for beer.</p>
+	<!--
+	<img src="../umiami.jpg" style="z-index: 1; width: 45; border: 1px solid black; position: relative; top: 140px; left: 1070px;" />
+	-->
+
+
+
+	</body>
+</html>

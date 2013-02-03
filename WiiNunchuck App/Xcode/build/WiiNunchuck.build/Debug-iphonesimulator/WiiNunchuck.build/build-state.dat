@@ -1,0 +1,2061 @@
+TWiiNunchuck
+v7
+r0
+t295990283.651527
+cCheck dependencies
+cProcessInfoPlistFile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/Info.plist WiiNunchuck-Info.plist
+cCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainWindow.xib
+cCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainView.xib
+cCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/icon.png icon.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/music_note_grey.png music_note_grey.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuk.png wii_nunchuk.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_adapter.png nunchuck_adapter.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuck_xray.png wii_nunchuck_xray.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_adapter.jpg wiichuck_adapter.jpg
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/coffee_icon.png coffee_icon.png
+cCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/kick.caf kick.caf
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/open_hat.caf open_hat.caf
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/snare.caf snare.caf
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/blue_button.png blue_button.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/green_button.png green_button.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/info.html info.html
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/magnify.png magnify.png
+cCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/InfoView.xib
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/weird_wah.aif weird_wah.aif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/cool_wind_scrape.aif cool_wind_scrape.aif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/low_bubble.aif low_bubble.aif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/low_rising_bubbles.aif low_rising_bubbles.aif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/vibraslap.aif vibraslap.aif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sine_mini.png sine_mini.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/drum_icon.png drum_icon.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sine_icon.png sine_icon.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sine_icon2.png sine_icon2.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/meter_icon.png meter_icon.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/headphone_icon.png headphone_icon.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wii_logo2.png wii_logo2.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_banner.png nunchuck_banner.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/bubbles.m4a bubbles.m4a
+cCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MusicView.xib
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/forward.png forward.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/pause.png pause.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/play.png play.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/rewind.png rewind.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_background.png sound_meter_background.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_glare.png sound_meter_glare.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/volume_down.png volume_down.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/volume_up.png volume_up.png
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_with_arduino.jpg wiichuck_with_arduino.jpg
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/ocean.caf ocean.caf
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/ambient_city.aiff ambient_city.aiff
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/eightys_skyline.aiff eightys_skyline.aiff
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/README.html Classes/README.html
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sam_and_eddie.gif sam_and_eddie.gif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sae1.jpg sae1.jpg
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/beans.gif beans.gif
+cCpResource build/Debug-iphonesimulator/WiiNunchuck.app/umiami.jpg umiami.jpg
+cProcessPCH++ /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch.gch WiiNunchuck_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/main.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuckAppDelegate.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MainViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SettingsViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AudioBasics.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CADebugMacros.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CAStreamBasicDescription.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MUEAudioIO.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SampleAudioUnit.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/Filter.o /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SineMaker.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AboutViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/InfoViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CALevelMeter.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/GLLevelMeter.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/LevelMeter.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MeterTable.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck normal i386
+cGenerateDSYMFile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app.dSYM /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck
+cTouch /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp
+c000000004BBCE3230000000000000BEB
+t1270670115
+s3051
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004B2B4DF500000000000120D0
+t1261129205
+s73936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004B2B4DEF00000000000000EB
+t1261129199
+s235
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B2B4D460000000000193960
+t1261129030
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h
+c000000004B2B4D2F0000000000011F11
+t1261129007
+s73489
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004B2B4D2F0000000000000A22
+t1261129007
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004B2B4D2D000000000000041D
+t1261129005
+s1053
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004B2B4CBD000000000000F342
+t1261128893
+s62274
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+c000000004B2B4C150000000000001983
+t1261128725
+s6531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004B2B4C170000000000000A99
+t1261128727
+s2713
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004B2B5307000000000000094F
+t1261130503
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004B2B53070000000000000A61
+t1261130503
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004B2B53070000000000009369
+t1261130503
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004B2B53070000000000002A42
+t1261130503
+s10818
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004B2B532D000000000001F8E0
+t1261130541
+s129248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B2B537F000000000000007D
+t1261130623
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B2B540C00000000000E5890
+t1261130764
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/pthread.h
+c000000004748A133000000000000380F
+t1195942195
+s14351
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/syslog.h
+c000000004748A13100000000000003EC
+t1195942193
+s1004
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004748AF9500000000000010DD
+t1195945877
+s4317
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004748AF950000000000003197
+t1195945877
+s12695
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C393FA80000000000000132
+t1278820264
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp
+c000000004BBCE3230000000000000BEB
+t1270670115
+s3051
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B7600000000001C8900
+t1275018102
+s1870080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h
+c000000004BFF3B6200000000000125D7
+t1275018082
+s75223
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B620000000000000A23
+t1275018082
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004BFF3B61000000000000041E
+t1275018081
+s1054
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004BFDFDD3000000000001032E
+t1274936787
+s66350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+c000000004BFDFD720000000000001983
+t1274936690
+s6531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004BFDFD720000000000000AB3
+t1274936690
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFDFF0A000000000000094F
+t1274937098
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFDFF0A0000000000000A61
+t1274937098
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFDFF0A0000000000009369
+t1274937098
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFDFF0A0000000000003C4A
+t1274937098
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFDFF120000000000019D60
+t1274937106
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/pthread.h
+c000000004A5C14A700000000000038F0
+t1247548583
+s14576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/syslog.h
+c000000004A5C14A600000000000003EC
+t1247548582
+s1004
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11983400000000000010DD
+t1242667060
+s4317
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A1198340000000000003197
+t1242667060
+s12695
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib
+c000000004BDB13F50000000000005D00
+t1272648693
+s23808
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.h
+c000000004BCE844400000000000000E9
+t1271825476
+s233
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m
+c000000004BCE8444000000000000061C
+t1271825476
+s1564
+i"AboutViewController.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp
+c000000004BBA2F5C0000000000000EB0
+t1270493020
+s3760
+i"AudioBasics.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.h
+c000000004BC505EB0000000000001A1B
+t1271203307
+s6683
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp
+c00000000499CA0B700000000000002D8
+t1235001527
+s728
+i"CADebugMacros.h"
+i<stdio.h>
+i<stdarg.h>
+i<syslog.h>
+i<stdio.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.h
+c00000000499CA0E40000000000004316
+t1235001572
+s17174
+i<CoreAudio/CoreAudioTypes.h>
+i"CoreAudioTypes.h"
+i"CADebugPrintf.h"
+i<pthread.h>
+i"CAHostTimeBase.h"
+i"CAHostTimeBase.h"
+i"CADebugger.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.h
+c000000004A708E2D0000000000000DF8
+t1248890413
+s3576
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioQueue.h>
+i<AVFoundation/AVFoundation.h>
+i"MeterTable.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm
+c000000004A708E2D00000000000021E8
+t1248890413
+s8680
+i"CALevelMeter.h"
+i"LevelMeter.h"
+i"GLLevelMeter.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAMath.h
+c00000000499CA0EA000000000000033C
+t1235001578
+s828
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreAudioTypes.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp
+c00000000499CA0EF0000000000004105
+t1235001583
+s16645
+i"CAStreamBasicDescription.h"
+i"CAMath.h"
+i<CoreFoundation/CFByteOrder.h>
+i<CFByteOrder.h>
+i<stddef.h>
+i"CALogMacros.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.h
+c000000004BF43EEE00000000000025AB
+t1274298094
+s9643
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreFoundation/CoreFoundation.h>
+i"CoreAudioTypes.h"
+i"CoreFoundation.h"
+i"CADebugMacros.h"
+i<string.h>
+i<stdio.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.h
+c000000004BBCBB29000000000000037C
+t1270659881
+s892
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.h
+c000000004BEA0217000000000000013A
+t1273627159
+s314
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"LevelMeter.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m
+c000000004BEA022100000000000020C2
+t1273627169
+s8386
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"GLLevelMeter.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.h
+c000000004BE24FFF00000000000001D0
+t1273122815
+s464
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m
+c000000004BE252D6000000000000058A
+t1273123542
+s1418
+i"InfoViewController.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.h
+c000000004A708E2D0000000000001094
+t1248890413
+s4244
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m
+c000000004BEA02070000000000001862
+t1273627143
+s6242
+i"LevelMeter.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp
+c000000004BD8D61100000000000034C2
+t1272501777
+s13506
+i"MUEAudioIO.h"
+i"AudioBasics.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.h
+c000000004BC4F3760000000000000D8C
+t1271198582
+s3468
+i<AudioToolbox/AudioToolbox.h>
+i<AudioUnit/AudioUnit.h>
+i<stdio.h>
+i"CAStreamBasicDescription.h"
+i"MUEAudioUnit.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioUnit.h
+c000000004BC28633000000000000027C
+t1271039539
+s636
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.h
+c000000004C09C02C0000000000000CCE
+t1275707436
+s3278
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVFoundation.h>
+i"SineMaker.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm
+c000000004C392CCD0000000000003F17
+t1278815437
+s16151
+i"MainViewController.h"
+i"WiiNunchuckAppDelegate.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp
+c000000004A708E2D0000000000000CDE
+t1248890413
+s3294
+i"MeterTable.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.h
+c000000004A708E2D0000000000000D99
+t1248890413
+s3481
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MusicView.xib
+c000000004BEB00AA000000000000CC4F
+t1273692330
+s52303
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/README.html
+c000000004BF4439B0000000000001DB2
+t1274299291
+s7602
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.h
+c000000004BE9D2160000000000000817
+t1273614870
+s2071
+i<Foundation/Foundation.h>
+i"MUEAudioUnit.h"
+i"Filter.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm
+c000000004BE8EBC10000000000002B0F
+t1273555905
+s11023
+i"SampleAudioUnit.h"
+i"AudioBasics.h"
+i<string.h>
+i"WiiNunchuckAppDelegate.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.h
+c000000004BF2FFF500000000000004F2
+t1274216437
+s1266
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm
+c000000004BE257BB0000000000000F80
+t1273124795
+s3968
+i"SettingsViewController.h"
+i"WiiNunchuckAppDelegate.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.h
+c000000004BF3005300000000000001FE
+t1274216531
+s510
+i<Foundation/Foundation.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m
+c000000004BF3003D0000000000001938
+t1274216509
+s6456
+i"SineMaker.h"
+i"AudioToolbox/AudioToolbox.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.h
+c000000004BD4CA2F00000000000003B2
+t1272236591
+s946
+i<UIKit/UIKit.h>
+i"MUEAudioIO.h"
+i"SampleAudioUnit.h"
+i"SettingsViewController.h"
+i"MainViewController.h"
+i"InfoViewController.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm
+c000000004BD507580000000000000604
+t1272252248
+s1540
+i"WiiNunchuckAppDelegate.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.h
+c000000004BEAD4F2000000000000077B
+t1273681138
+s1915
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm
+c000000004BF316180000000000002279
+t1274222104
+s8825
+i"avTouchController.h"
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i"CALevelMeter.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.h
+c000000004BEA279B000000000000009E
+t1273636763
+s158
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m
+c000000004BEA27720000000000000288
+t1273636722
+s648
+i"avTouchViewController.h"
+i"avTouchController.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/InfoView.xib
+c000000004BE25A230000000000006392
+t1273125411
+s25490
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainView.xib
+c000000004BDB2DD50000000000008F36
+t1272655317
+s36662
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainWindow.xib
+c000000004BEAD6C6000000000000A9E5
+t1273681606
+s43493
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib
+c000000004BE258690000000000009BFE
+t1273124969
+s39934
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/WiiNunchuck_Prefix.pch
+c000000004BC208A400000000000000BF
+t1271007396
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/ambient_city.aiff
+c000000004BEACC6E0000000001518036
+t1273678958
+s22118454
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/beans.gif
+c000000004BF3112D0000000000025FB4
+t1274220845
+s155572
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/blue_button.png
+c000000004BD3873900000000000010AB
+t1272153913
+s4267
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/bubbles.m4a
+c000000004935AE69000000000000B584
+t1228254825
+s46468
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app
+t1274297467
+s1904
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app.dSYM
+t1274297467
+s102
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/AboutView.nib
+t1274297461
+s3248
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/Info.plist
+t1274297460
+s678
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/InfoView.nib
+t1274297462
+s3602
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/MainView.nib
+t1274297461
+s5501
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/MainWindow.nib
+t1274297460
+s3497
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/MusicView.nib
+t1274297462
+s7339
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/PkgInfo
+t1274297460
+s8
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/README.html
+t1274297462
+s5170
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/SettingsView.nib
+t1274297461
+s6305
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck
+t1274297467
+s167036
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/ambient_city.aiff
+t1274297464
+s22118454
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/beans.gif
+t1274297462
+s155572
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/blue_button.png
+t1274297461
+s4267
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/bubbles.m4a
+t1274297461
+s46468
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/coffee_icon.png
+t1274297461
+s1517
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/cool_wind_scrape.aif
+t1274297461
+s212950
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/drum_icon.png
+t1274297461
+s4106
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/eightys_skyline.aiff
+t1274297464
+s22036534
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/forward.png
+t1274297462
+s1195
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/green_button.png
+t1274297461
+s3961
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/headphone_icon.png
+t1274297461
+s2397
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/icon.png
+t1274297461
+s2635
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/info.html
+t1274297461
+s2301
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/kick.caf
+t1274297461
+s47260
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/low_bubble.aif
+t1274297461
+s98290
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/low_rising_bubbles.aif
+t1274297461
+s671590
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/magnify.png
+t1274297461
+s1770
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/meter_icon.png
+t1274297461
+s1274
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/music_note_grey.png
+t1274297461
+s1797
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_adapter.png
+t1274297461
+s229234
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_banner.png
+t1274297461
+s22675
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/ocean.caf
+t1274297462
+s2008829
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/open_hat.caf
+t1274297461
+s43808
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/pause.png
+t1274297462
+s3192
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/play.png
+t1274297462
+s1084
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/rewind.png
+t1274297462
+s1198
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sae1.jpg
+t1274297462
+s92320
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sam_and_eddie.gif
+t1274297462
+s153162
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sine_icon.png
+t1274297461
+s1727
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sine_icon2.png
+t1274297461
+s451
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sine_mini.png
+t1274297461
+s380
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/snare.caf
+t1274297461
+s32412
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_background.png
+t1274297462
+s7391
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_glare.png
+t1274297462
+s1526
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/umiami.jpg
+t1274297462
+s9094
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/vibraslap.aif
+t1274297461
+s303062
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/volume_down.png
+t1274297462
+s998
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/volume_up.png
+t1274297462
+s1180
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/weird_wah.aif
+t1274297461
+s114754
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/wii_logo2.png
+t1274297461
+s5641
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuck_xray.png
+t1274297461
+s63847
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuk.png
+t1274297461
+s20607
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_adapter.jpg
+t1274297461
+s24082
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_with_arduino.jpg
+t1274297462
+s28903
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AboutViewController.o
+t1274297466
+s30520
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AudioBasics.o
+t1274297466
+s14724
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CADebugMacros.o
+t1274297466
+s6196
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CALevelMeter.o
+t1274297467
+s33632
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CAStreamBasicDescription.o
+t1274297466
+s32700
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/Filter.o
+t1274297467
+s59384
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/GLLevelMeter.o
+t1274297467
+s29592
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/InfoViewController.o
+t1274297467
+s35856
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/LevelMeter.o
+t1274297467
+s28668
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MUEAudioIO.o
+t1274297466
+s37732
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MainViewController.o
+t1274297466
+s99196
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MeterTable.o
+t1274297467
+s9944
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SampleAudioUnit.o
+t1274297466
+s63792
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SettingsViewController.o
+t1274297466
+s60616
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SineMaker.o
+t1274297466
+s21856
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuck.LinkFileList
+c000000004BF43C740000000000000B75
+t1274297460
+s2933
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuckAppDelegate.o
+t1274297466
+s57908
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchController.o
+t1274297467
+s58572
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchViewController.o
+t1274297467
+s33172
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/main.o
+t1274297466
+s6568
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/coffee_icon.png
+c000000004BCE7A0200000000000005ED
+t1271822850
+s1517
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/cool_wind_scrape.aif
+c000000004BD4AF440000000000033FD6
+t1272229700
+s212950
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/drum_icon.png
+c000000004BDB14D3000000000000100A
+t1272648915
+s4106
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/eightys_skyline.aiff
+c000000004BEACE3A0000000001504036
+t1273679418
+s22036534
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/forward.png
+c0000000049B6E5FE00000000000004AB
+t1236723198
+s1195
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/green_button.png
+c000000004BD3872E0000000000000F79
+t1272153902
+s3961
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/headphone_icon.png
+c000000004BDB24EA000000000000095D
+t1272653034
+s2397
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/icon.png
+c000000004BC20D560000000000000A4B
+t1271008598
+s2635
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/info.html
+c000000004BE2506D00000000000008FD
+t1273122925
+s2301
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/kick.caf
+c000000004BB7B4F2000000000000B89C
+t1270330610
+s47260
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/low_bubble.aif
+c000000004BD4AF310000000000017FF2
+t1272229681
+s98290
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/low_rising_bubbles.aif
+c000000004BD4AF6000000000000A3F66
+t1272229728
+s671590
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/magnify.png
+c000000004BCE8A1B00000000000006EA
+t1271826971
+s1770
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m
+c000000004BCCDF57000000000000016A
+t1271717719
+s362
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/meter_icon.png
+c000000004BDB241100000000000004FA
+t1272652817
+s1274
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/music_note_grey.png
+c000000004BC20D650000000000000705
+t1271008613
+s1797
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_adapter.png
+c000000004BC2184D0000000000037F72
+t1271011405
+s229234
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_banner.png
+c000000004BE2460E0000000000005893
+t1273120270
+s22675
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/ocean.caf
+c000000004645031400000000001EA6FD
+t1178927892
+s2008829
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/open_hat.caf
+c000000004BB2741F000000000000AB20
+t1269986335
+s43808
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/pause.png
+c0000000049B6E5FE0000000000000C78
+t1236723198
+s3192
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/play.png
+c0000000049B6E5FE000000000000043C
+t1236723198
+s1084
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/rewind.png
+c0000000049B6E5FE00000000000004AE
+t1236723198
+s1198
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sae1.jpg
+c000000004BF30CDE00000000000168A0
+t1274219742
+s92320
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sam_and_eddie.gif
+c000000004BF30E87000000000002564A
+t1274220167
+s153162
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_icon.png
+c000000004BDB16A400000000000006BF
+t1272649380
+s1727
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_icon2.png
+c000000004BDB232B00000000000001C3
+t1272652587
+s451
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_mini.png
+c000000004BDA657A000000000000017C
+t1272604026
+s380
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/snare.caf
+c000000004BB274130000000000007E9C
+t1269986323
+s32412
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sound_meter_background.png
+c0000000049B6E5FE0000000000001CDF
+t1236723198
+s7391
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sound_meter_glare.png
+c0000000049B6E5FE00000000000005F6
+t1236723198
+s1526
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/umiami.jpg
+c000000004BF311C70000000000002386
+t1274220999
+s9094
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/vibraslap.aif
+c000000004BD4AF540000000000049FD6
+t1272229716
+s303062
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/volume_down.png
+c0000000049B6E5FE00000000000003E6
+t1236723198
+s998
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/volume_up.png
+c0000000049B6E5FE000000000000049C
+t1236723198
+s1180
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/weird_wah.aif
+c000000004BD4AE89000000000001C042
+t1272229513
+s114754
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_logo2.png
+c000000004BE2439B0000000000001609
+t1273119643
+s5641
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuck_xray.png
+c000000004BCE6D07000000000000F967
+t1271819527
+s63847
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuk.png
+c000000004BC20ED5000000000000507F
+t1271008981
+s20607
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wiichuck_adapter.jpg
+c000000004BCE781B0000000000005E12
+t1271822363
+s24082
+
+N/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wiichuck_with_arduino.jpg
+c000000004BE8D32100000000000070E7
+t1273549601
+s28903
+
+N/var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch.gch
+t1274297465
+s13968816
+
+N/var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-hdtwzbyrmswljqdkwapnodwcgadx/WiiNunchuck_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-hiyhiswiruwuixcdukqaehnxnwvi/WiiNunchuck_Prefix.pch.gch
+t2
+s0
+
+NWiiNunchuck-Info.plist
+c000000004BE9BC4500000000000003AE
+t1273609285
+s942
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295990283#295990283#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AboutViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.905997
+e295990266.973743
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AboutViewController.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m295990266#295990266#0(0"0(0#0#82"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m4300911832#2152"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AboutViewController.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AboutViewController.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AudioBasics.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.394395
+e295990266.510516
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AudioBasics.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp295990266#295990266#0(0"0(0#0#76"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp4300911832#2138"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/AudioBasics.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CADebugMacros.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.396582
+e295990266.448322
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CADebugMacros.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp295990266#295990266#0(0"0(0#0#78"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp4300911832#2142"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CADebugMacros.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CALevelMeter.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990267.212461
+e295990267.333596
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CALevelMeter.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm295990267#295990267#0(0"0(0#0#76"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm4300911832#2139"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CALevelMeter.mm -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CALevelMeter.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CAStreamBasicDescription.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.448433
+e295990266.650498
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CAStreamBasicDescription.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp295990266#295990266#0(0"0(0#0#89"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp4300911832#2164"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/CAStreamBasicDescription.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/Filter.o /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.684227
+e295990267.258073
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/Filter.o
+x/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@182"Compile /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp295990266#295990267#0(0"0(0#0#174"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp4300911832#2231"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/Filter.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/Filter.o /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/GLLevelMeter.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990267.258186
+e295990267.410052
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/GLLevelMeter.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m295990267#295990267#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m4300911832#2138"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/GLLevelMeter.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/GLLevelMeter.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/InfoViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.973852
+e295990267.036591
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/InfoViewController.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m295990266#295990267#0(0"0(0#0#81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m4300911832#2150"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/InfoViewController.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/InfoViewController.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/LevelMeter.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990267.333708
+e295990267.433432
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/LevelMeter.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m295990267#295990267#0(0"0(0#0#73"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m4300911832#2134"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/LevelMeter.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/LevelMeter.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MUEAudioIO.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.510631
+e295990266.684116
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MUEAudioIO.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp: In member function 'int MUEAudioIO::setupIO()':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:222: warning: format '%d' expects type 'int', but argument 2 has type 'OSStatus'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:231: warning: format '%d' expects type 'int', but argument 2 has type 'OSStatus'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp: In member function 'void MUEAudioIO::allocate_input_buffers(UInt32)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:379: warning: format '%d' expects type 'int', but argument 2 has type 'UInt32'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:388: warning: format '%d' expects type 'int', but argument 2 has type 'UInt32'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:388: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'
+lSLF07#2@83"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp295990266#295990266#0(1051"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp: In member function 'int MUEAudioIO::setupIO()':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:222: warning: format '%d' expects type 'int', but argument 2 has type 'OSStatus'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:231: warning: format '%d' expects type 'int', but argument 2 has type 'OSStatus'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp: In member function 'void MUEAudioIO::allocate_input_buffers(UInt32)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:379: warning: format '%d' expects type 'int', but argument 2 has type 'UInt32'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:388: warning: format '%d' expects type 'int', but argument 2 has type 'UInt32'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp:388: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'5(22@66"Format '%d' expects type 'int', but argument 2 has type 'OSStatus'295990266#125#157#0(6@75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp294194577#222#0#222#0#56"format '*' expects type '*', but argument * has type '*'0(22@66"Format '%d' expects type 'int', but argument 2 has type 'OSStatus'295990266#282#157#0(6@75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp294194577#231#0#231#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 2 has type 'UInt32'295990266#586#155#0(6@75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp294194577#379#0#379#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 2 has type 'UInt32'295990266#741#155#0(6@75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp294194577#388#0#388#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 3 has type 'UInt32'295990266#896#155#0(6@75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp294194577#388#0#388#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp4300911832#2136"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MUEAudioIO.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MainViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.010960
+e295990266.394224
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MainViewController.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm295990266#295990266#0(0"0(0#0#82"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm4300911832#2151"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MainViewController.mm -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MeterTable.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990267.410161
+e295990267.503576
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MeterTable.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp295990267#295990267#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp4300911832#2136"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MeterTable.cpp -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/MeterTable.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SampleAudioUnit.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.650595
+e295990266.809247
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SampleAudioUnit.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm295990266#295990266#0(0"0(0#0#79"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm4300911832#2145"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SampleAudioUnit.mm -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SampleAudioUnit.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SettingsViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.063943
+e295990266.396462
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SettingsViewController.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm295990266#295990266#0(0"0(0#0#86"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm4300911832#2159"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SettingsViewController.mm -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SettingsViewController.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SineMaker.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990266.809356
+e295990266.905895
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SineMaker.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m: In function 'void -[SineMaker playSineWave](SineMaker*, objc_selector*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:107: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:117: warning: format '%d' expects type 'int', but argument 4 has type 'UInt32'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:124: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:128: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:148: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'
+lSLF07#2@80"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m295990266#295990266#0(908"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m: In function 'void -[SineMaker playSineWave](SineMaker*, objc_selector*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:107: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:117: warning: format '%d' expects type 'int', but argument 4 has type 'UInt32'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:124: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:128: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m:148: warning: format '%d' expects type 'int', but argument 3 has type 'UInt32'5(22@64"Format '%d' expects type 'int', but argument 3 has type 'UInt32'295990266#148#152#0(6@72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m295909309#107#0#107#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 4 has type 'UInt32'295990266#300#152#0(6@72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m295909309#117#0#117#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 3 has type 'UInt32'295990266#452#152#0(6@72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m295909309#124#0#124#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 3 has type 'UInt32'295990266#604#152#0(6@72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m295909309#128#0#128#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 3 has type 'UInt32'295990266#756#152#0(6@72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m295909309#148#0#148#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m4300911832#2132"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/SineMaker.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/SineMaker.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuckAppDelegate.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990265.895077
+e295990266.063825
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuckAppDelegate.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm295990265#295990266#0(0"0(0#0#86"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm4300911832#2159"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/WiiNunchuckAppDelegate.mm -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuckAppDelegate.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990267.036706
+e295990267.212352
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchController.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController awakeFromNib](avTouchController*, objc_selector*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: 'avTouchController' may not respond to '-updateViewForPlayerInfo'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: (Messages without a matching method signature
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: will be assumed to return 'id' and accept
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: '...' as arguments.)
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:51: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController pausePlayback](avTouchController*, objc_selector*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:64: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController startPlayback](avTouchController*, objc_selector*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:98: warning: 'avTouchController' may not respond to '-updateViewForPlayerInfo'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:99: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:108: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController progressSliderMoved:](avTouchController*, objc_selector*, UISlider*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:155: warning: 'avTouchController' may not respond to '-updateCurrentTime'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController ffwd](avTouchController*, objc_selector*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:187: warning: 'avTouchController' may not respond to '-updateCurrentTime'
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController rewind](avTouchController*, objc_selector*)':
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:194: warning: 'avTouchController' may not respond to '-updateCurrentTime'
+lSLF07#2@89"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295990267#295990267#0(2878"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController awakeFromNib](avTouchController*, objc_selector*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: 'avTouchController' may not respond to '-updateViewForPlayerInfo'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: (Messages without a matching method signature/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: will be assumed to return 'id' and accept/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:50: warning: '...' as arguments.)/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:51: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController pausePlayback](avTouchController*, objc_selector*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:64: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController startPlayback](avTouchController*, objc_selector*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:98: warning: 'avTouchController' may not respond to '-updateViewForPlayerInfo'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:99: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:108: warning: 'avTouchController' may not respond to '-updateViewForPlayerState'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController progressSliderMoved:](avTouchController*, objc_selector*, UISlider*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:155: warning: 'avTouchController' may not respond to '-updateCurrentTime'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController ffwd](avTouchController*, objc_selector*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:187: warning: 'avTouchController' may not respond to '-updateCurrentTime'/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm: In function 'void -[avTouchController rewind](avTouchController*, objc_selector*)':/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm:194: warning: 'avTouchController' may not respond to '-updateCurrentTime'10(22@65"'avTouchController' may not respond to '-updateViewForPlayerInfo'295990267#173#161#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#50#0#50#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295990267#334#141#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#50#0#50#0#0"0(22@66"'avTouchController' may not respond to '-updateViewForPlayerState'295990267#728#162#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#51#0#51#0#26"'*' may not respond to '*'0(22@66"'avTouchController' may not respond to '-updateViewForPlayerState'295990267#1064#162#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#64#0#64#0#26"'*' may not respond to '*'0(22@65"'avTouchController' may not respond to '-updateViewForPlayerInfo'295990267#1400#161#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#98#0#98#0#26"'*' may not respond to '*'0(22@66"'avTouchController' may not respond to '-updateViewForPlayerState'295990267#1561#162#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#99#0#99#0#26"'*' may not respond to '*'0(22@66"'avTouchController' may not respond to '-updateViewForPlayerState'295990267#1723#163#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#108#0#108#0#26"'*' may not respond to '*'0(22@59"'avTouchController' may not respond to '-updateCurrentTime'295990267#2078#156#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#155#0#155#0#26"'*' may not respond to '*'0(22@59"'avTouchController' may not respond to '-updateCurrentTime'295990267#2399#156#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#187#0#187#0#26"'*' may not respond to '*'0(22@59"'avTouchController' may not respond to '-updateCurrentTime'295990267#2722#156#0(6@81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm295914904#194#0#194#0#26"'*' may not respond to '*'0(0#0#81"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm4300911832#2149"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchController.mm -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchController.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchViewController.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990267.433548
+e295990267.512701
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchViewController.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m295990267#295990267#0(0"0(0#0#84"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m4300911832#2156"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/avTouchViewController.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/avTouchViewController.o0#
+
+CCompileC build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/main.o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990265.893670
+e295990266.010851
+r1
+xCompileC
+xbuild/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/main.o
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m295990265#295990266#0(0"0(0#0#59"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m4300911832#2114"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/main.m -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib
+s295990261.132503
+e295990261.662069
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib:12: warning: This label has its minimum font size set to a size that is greater than its current font size.
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib:11: warning: This label has its minimum font size set to a size that is greater than its current font size.
+lSLF07#2@24"CompileXIB AboutView.xib295990261#295990261#0(391"/* com.apple.ibtool.document.warnings *//Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib:12: warning: This label has its minimum font size set to a size that is greater than its current font size./Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib:11: warning: This label has its minimum font size set to a size that is greater than its current font size.2(22@94"This label has its minimum font size set to a size that is greater than its current font size.295990261#18446744073709551615#0#0(6@66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib294341493#12#0#12#0#0"0(22@94"This label has its minimum font size set to a size that is greater than its current font size.295990261#18446744073709551615#0#0(6@66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib294341493#11#0#11#0#0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib4300911832#526"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/AboutView.nib /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/AboutView.xib0#
+
+CCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MusicView.xib
+s295990261.806966
+e295990262.380110
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MusicView.xib
+lSLF07#2@32"CompileXIB Classes/MusicView.xib295990261#295990262#0(0"0(0#0#74"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MusicView.xib4300911832#534"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/MusicView.nib /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MusicView.xib0#
+
+CCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/InfoView.xib
+s295990261.448878
+e295990262.184620
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/InfoView.xib
+lSLF07#2@23"CompileXIB InfoView.xib295990261#295990262#0(0"0(0#0#65"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/InfoView.xib4300911832#524"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/InfoView.nib /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/InfoView.xib0#
+
+CCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainView.xib
+s295990260.564087
+e295990261.120443
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib295990260#295990261#0(0"0(0#0#65"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainView.xib4300911832#524"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/MainView.nib /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainView.xib0#
+
+CCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainWindow.xib
+s295990260.563379
+e295990260.936243
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib295990260#295990260#0(0"0(0#0#67"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainWindow.xib4300911832#528"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/MainWindow.nib /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/MainWindow.xib0#
+
+CCompileXIB /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib
+s295990260.936341
+e295990261.439352
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib:15: warning: Tint color is only supported with bar style segmented controls.
+o/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib:44: warning: Tint color is only supported with bar style segmented controls.
+lSLF07#2@27"CompileXIB SettingsView.xib295990260#295990261#0(335"/* com.apple.ibtool.document.warnings *//Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib:15: warning: Tint color is only supported with bar style segmented controls./Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib:44: warning: Tint color is only supported with bar style segmented controls.2(22@63"Tint color is only supported with bar style segmented controls.295990261#18446744073709551615#0#0(6@69"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib294817769#15#0#15#0#0"0(22@63"Tint color is only supported with bar style segmented controls.295990261#18446744073709551615#0#0(6@69"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib294817769#44#0#44#0#0"0(0#0#69"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib4300911832#532"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/SettingsView.nib /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/SettingsView.xib0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/README.html Classes/README.html
+s295990262.224209
+e295990262.244221
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/README.html
+xClasses/README.html
+lSLF07#2@24"Copy Classes/README.html295990262#295990262#0(0"0(0#0#72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/README.html4300911832#509"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/README.html /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/ambient_city.aiff ambient_city.aiff
+s295990262.220618
+e295990264.799543
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/ambient_city.aiff
+xambient_city.aiff
+lSLF07#2@22"Copy ambient_city.aiff295990262#295990264#0(0"0(0#0#70"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/ambient_city.aiff4300911832#507"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/ambient_city.aiff /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/beans.gif beans.gif
+s295990262.230448
+e295990262.648730
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/beans.gif
+xbeans.gif
+lSLF07#2@14"Copy beans.gif295990262#295990262#0(0"0(0#0#62"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/beans.gif4300911832#499"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/beans.gif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/blue_button.png blue_button.png
+s295990261.442638
+e295990261.478343
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/blue_button.png
+xblue_button.png
+lSLF07#2@20"Copy blue_button.png295990261#295990261#0(0"0(0#0#68"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/blue_button.png4300911832#505"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/blue_button.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/bubbles.m4a bubbles.m4a
+s295990261.804569
+e295990261.834354
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/bubbles.m4a
+xbubbles.m4a
+lSLF07#2@16"Copy bubbles.m4a295990261#295990261#0(0"0(0#0#64"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/bubbles.m4a4300911832#501"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/bubbles.m4a /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/coffee_icon.png coffee_icon.png
+s295990261.130731
+e295990261.207627
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/coffee_icon.png
+xcoffee_icon.png
+lSLF07#2@20"Copy coffee_icon.png295990261#295990261#0(0"0(0#0#68"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/coffee_icon.png4300911832#505"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/coffee_icon.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/cool_wind_scrape.aif cool_wind_scrape.aif
+s295990261.663377
+e295990261.867520
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/cool_wind_scrape.aif
+xcool_wind_scrape.aif
+lSLF07#2@25"Copy cool_wind_scrape.aif295990261#295990261#0(0"0(0#0#73"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/cool_wind_scrape.aif4300911832#510"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/cool_wind_scrape.aif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/drum_icon.png drum_icon.png
+s295990261.666465
+e295990261.787406
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/drum_icon.png
+xdrum_icon.png
+lSLF07#2@18"Copy drum_icon.png295990261#295990261#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/drum_icon.png4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/drum_icon.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/eightys_skyline.aiff eightys_skyline.aiff
+s295990262.222388
+e295990264.687033
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/eightys_skyline.aiff
+xeightys_skyline.aiff
+lSLF07#2@25"Copy eightys_skyline.aiff295990262#295990264#0(0"0(0#0#73"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/eightys_skyline.aiff4300911832#510"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/eightys_skyline.aiff /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/forward.png forward.png
+s295990262.184771
+e295990262.217522
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/forward.png
+xforward.png
+lSLF07#2@16"Copy forward.png295990262#295990262#0(0"0(0#0#64"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/forward.png4300911832#501"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/forward.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/green_button.png green_button.png
+s295990261.444416
+e295990261.476776
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/green_button.png
+xgreen_button.png
+lSLF07#2@21"Copy green_button.png295990261#295990261#0(0"0(0#0#69"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/green_button.png4300911832#506"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/green_button.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/headphone_icon.png headphone_icon.png
+s295990261.736379
+e295990261.806764
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/headphone_icon.png
+xheadphone_icon.png
+lSLF07#2@23"Copy headphone_icon.png295990261#295990261#0(0"0(0#0#71"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/headphone_icon.png4300911832#508"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/headphone_icon.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/icon.png icon.png
+s295990261.120535
+e295990261.171968
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png295990261#295990261#0(0"0(0#0#61"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/icon.png4300911832#498"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/icon.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/info.html info.html
+s295990261.445293
+e295990261.479842
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/info.html
+xinfo.html
+lSLF07#2@14"Copy info.html295990261#295990261#0(0"0(0#0#62"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/info.html4300911832#499"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/info.html /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/kick.caf kick.caf
+s295990261.439458
+e295990261.480416
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/kick.caf
+xkick.caf
+lSLF07#2@13"Copy kick.caf295990261#295990261#0(0"0(0#0#61"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/kick.caf4300911832#498"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/kick.caf /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/low_bubble.aif low_bubble.aif
+s295990261.664021
+e295990261.835401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/low_bubble.aif
+xlow_bubble.aif
+lSLF07#2@19"Copy low_bubble.aif295990261#295990261#0(0"0(0#0#67"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/low_bubble.aif4300911832#504"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/low_bubble.aif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/low_rising_bubbles.aif low_rising_bubbles.aif
+s295990261.664637
+e295990261.874925
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/low_rising_bubbles.aif
+xlow_rising_bubbles.aif
+lSLF07#2@27"Copy low_rising_bubbles.aif295990261#295990261#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/low_rising_bubbles.aif4300911832#512"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/low_rising_bubbles.aif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/magnify.png magnify.png
+s295990261.447045
+e295990261.479046
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/magnify.png
+xmagnify.png
+lSLF07#2@16"Copy magnify.png295990261#295990261#0(0"0(0#0#64"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/magnify.png4300911832#501"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/magnify.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/meter_icon.png meter_icon.png
+s295990261.735118
+e295990261.804475
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/meter_icon.png
+xmeter_icon.png
+lSLF07#2@19"Copy meter_icon.png295990261#295990261#0(0"0(0#0#67"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/meter_icon.png4300911832#504"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/meter_icon.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/music_note_grey.png music_note_grey.png
+s295990261.121528
+e295990261.159183
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/music_note_grey.png
+xmusic_note_grey.png
+lSLF07#2@24"Copy music_note_grey.png295990261#295990261#0(0"0(0#0#72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/music_note_grey.png4300911832#509"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/music_note_grey.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_adapter.png nunchuck_adapter.png
+s295990261.125062
+e295990261.222601
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_adapter.png
+xnunchuck_adapter.png
+lSLF07#2@25"Copy nunchuck_adapter.png295990261#295990261#0(0"0(0#0#73"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_adapter.png4300911832#510"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_adapter.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_banner.png nunchuck_banner.png
+s295990261.792935
+e295990261.833272
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/nunchuck_banner.png
+xnunchuck_banner.png
+lSLF07#2@24"Copy nunchuck_banner.png295990261#295990261#0(0"0(0#0#72"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_banner.png4300911832#509"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_banner.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/ocean.caf ocean.caf
+s295990262.217631
+e295990262.686901
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/ocean.caf
+xocean.caf
+lSLF07#2@14"Copy ocean.caf295990262#295990262#0(0"0(0#0#62"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/ocean.caf4300911832#499"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/ocean.caf /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/open_hat.caf open_hat.caf
+s295990261.440259
+e295990261.483538
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/open_hat.caf
+xopen_hat.caf
+lSLF07#2@17"Copy open_hat.caf295990261#295990261#0(0"0(0#0#65"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/open_hat.caf4300911832#502"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/open_hat.caf /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/pause.png pause.png
+s295990262.185525
+e295990262.228289
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/pause.png
+xpause.png
+lSLF07#2@14"Copy pause.png295990262#295990262#0(0"0(0#0#62"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/pause.png4300911832#499"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/pause.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/play.png play.png
+s295990262.186149
+e295990262.220163
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/play.png
+xplay.png
+lSLF07#2@13"Copy play.png295990262#295990262#0(0"0(0#0#61"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/play.png4300911832#498"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/play.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/rewind.png rewind.png
+s295990262.186820
+e295990262.220306
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/rewind.png
+xrewind.png
+lSLF07#2@15"Copy rewind.png295990262#295990262#0(0"0(0#0#63"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/rewind.png4300911832#500"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/rewind.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sae1.jpg sae1.jpg
+s295990262.228713
+e295990262.454871
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sae1.jpg
+xsae1.jpg
+lSLF07#2@13"Copy sae1.jpg295990262#295990262#0(0"0(0#0#61"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sae1.jpg4300911832#498"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sae1.jpg /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sam_and_eddie.gif sam_and_eddie.gif
+s295990262.226230
+e295990262.647564
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sam_and_eddie.gif
+xsam_and_eddie.gif
+lSLF07#2@22"Copy sam_and_eddie.gif295990262#295990262#0(0"0(0#0#70"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sam_and_eddie.gif4300911832#507"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sam_and_eddie.gif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sine_icon.png sine_icon.png
+s295990261.667069
+e295990261.735014
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sine_icon.png
+xsine_icon.png
+lSLF07#2@18"Copy sine_icon.png295990261#295990261#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_icon.png4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_icon.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sine_icon2.png sine_icon2.png
+s295990261.669126
+e295990261.806892
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sine_icon2.png
+xsine_icon2.png
+lSLF07#2@19"Copy sine_icon2.png295990261#295990261#0(0"0(0#0#67"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_icon2.png4300911832#504"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_icon2.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sine_mini.png sine_mini.png
+s295990261.665844
+e295990261.736302
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sine_mini.png
+xsine_mini.png
+lSLF07#2@18"Copy sine_mini.png295990261#295990261#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_mini.png4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sine_mini.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/snare.caf snare.caf
+s295990261.440965
+e295990261.477566
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/snare.caf
+xsnare.caf
+lSLF07#2@14"Copy snare.caf295990261#295990261#0(0"0(0#0#62"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/snare.caf4300911832#499"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/snare.caf /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_background.png sound_meter_background.png
+s295990262.187393
+e295990262.228416
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_background.png
+xsound_meter_background.png
+lSLF07#2@31"Copy sound_meter_background.png295990262#295990262#0(0"0(0#0#79"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sound_meter_background.png4300911832#516"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sound_meter_background.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_glare.png sound_meter_glare.png
+s295990262.189000
+e295990262.220423
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/sound_meter_glare.png
+xsound_meter_glare.png
+lSLF07#2@26"Copy sound_meter_glare.png295990262#295990262#0(0"0(0#0#74"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sound_meter_glare.png4300911832#511"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/sound_meter_glare.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/umiami.jpg umiami.jpg
+s295990262.232304
+e295990262.281447
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/umiami.jpg
+xumiami.jpg
+lSLF07#2@15"Copy umiami.jpg295990262#295990262#0(0"0(0#0#63"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/umiami.jpg4300911832#500"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/umiami.jpg /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/vibraslap.aif vibraslap.aif
+s295990261.665241
+e295990261.860918
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/vibraslap.aif
+xvibraslap.aif
+lSLF07#2@18"Copy vibraslap.aif295990261#295990261#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/vibraslap.aif4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/vibraslap.aif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/volume_down.png volume_down.png
+s295990262.190688
+e295990262.228525
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/volume_down.png
+xvolume_down.png
+lSLF07#2@20"Copy volume_down.png295990262#295990262#0(0"0(0#0#68"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/volume_down.png4300911832#505"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/volume_down.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/volume_up.png volume_up.png
+s295990262.205445
+e295990262.220541
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/volume_up.png
+xvolume_up.png
+lSLF07#2@18"Copy volume_up.png295990262#295990262#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/volume_up.png4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/volume_up.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/weird_wah.aif weird_wah.aif
+s295990261.662160
+e295990261.836729
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/weird_wah.aif
+xweird_wah.aif
+lSLF07#2@18"Copy weird_wah.aif295990261#295990261#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/weird_wah.aif4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/weird_wah.aif /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wii_logo2.png wii_logo2.png
+s295990261.787509
+e295990261.792838
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/wii_logo2.png
+xwii_logo2.png
+lSLF07#2@18"Copy wii_logo2.png295990261#295990261#0(0"0(0#0#66"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_logo2.png4300911832#503"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_logo2.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuck_xray.png wii_nunchuck_xray.png
+s295990261.127077
+e295990261.169739
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuck_xray.png
+xwii_nunchuck_xray.png
+lSLF07#2@26"Copy wii_nunchuck_xray.png295990261#295990261#0(0"0(0#0#74"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuck_xray.png4300911832#511"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuck_xray.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuk.png wii_nunchuk.png
+s295990261.123266
+e295990261.173942
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/wii_nunchuk.png
+xwii_nunchuk.png
+lSLF07#2@20"Copy wii_nunchuk.png295990261#295990261#0(0"0(0#0#68"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuk.png4300911832#505"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuk.png /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_adapter.jpg wiichuck_adapter.jpg
+s295990261.128867
+e295990261.163582
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_adapter.jpg
+xwiichuck_adapter.jpg
+lSLF07#2@25"Copy wiichuck_adapter.jpg295990261#295990261#0(0"0(0#0#73"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wiichuck_adapter.jpg4300911832#510"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wiichuck_adapter.jpg /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CCpResource build/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_with_arduino.jpg wiichuck_with_arduino.jpg
+s295990262.207295
+e295990262.228635
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WiiNunchuck.app/wiichuck_with_arduino.jpg
+xwiichuck_with_arduino.jpg
+lSLF07#2@30"Copy wiichuck_with_arduino.jpg295990262#295990262#0(0"0(0#0#78"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wiichuck_with_arduino.jpg4300911832#515"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wiichuck_with_arduino.jpg /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+
+CGenerateDSYMFile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app.dSYM /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck
+s295990267.591369
+e295990267.636541
+r1
+xGenerateDSYMFile
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app.dSYM
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/WiiNunchuck.app.dSYM build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck295990267#295990267#0(0"0(0#0#108"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck4300911832#437"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app.dSYM0#
+
+CLd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck normal i386
+s295990267.512806
+e295990267.591255
+r1
+xLd
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck
+xnormal
+xi386
+lSLF07#2@113"Link /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck295990267#295990267#0(0"0(0#0#0"4300911832#1044"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -filelist /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/Objects-normal/i386/WiiNunchuck.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework OpenGLES -framework QuartzCore -framework AVFoundation -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/WiiNunchuck0#
+
+CProcessInfoPlistFile /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/Info.plist WiiNunchuck-Info.plist
+s295990260.559743
+e295990260.563299
+r1
+xProcessInfoPlistFile
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/Info.plist
+xWiiNunchuck-Info.plist
+lSLF07#2@30"Process WiiNunchuck-Info.plist295990260#295990260#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/WiiNunchuck-Info.plist4300911832#533"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WiiNunchuck-Info.plist -genpkginfo /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app/Info.plist0#
+
+CProcessPCH++ /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch.gch WiiNunchuck_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s295990264.799689
+e295990265.893509
+r1
+xProcessPCH++
+x/var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch.gch
+xWiiNunchuck_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile WiiNunchuck_Prefix.pch295990264#295990265#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/WiiNunchuck_Prefix.pch4300911832#1988"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-generated-files.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-own-target-headers.hmap -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-all-target-headers.hmap -iquote /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/WiiNunchuck-project-headers.hmap -F/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/include -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources/i386 -I/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/WiiNunchuck.build/Debug-iphonesimulator/WiiNunchuck.build/DerivedSources -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/WiiNunchuck_Prefix.pch -o /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-brewhukhndsvgldpbvxnrmvcctec/WiiNunchuck_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-hdtwzbyrmswljqdkwapnodwcgadx/WiiNunchuck_Prefix.pch.gch WiiNunchuck_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WiiNunchuck_Prefix-hiyhiswiruwuixcdukqaehnxnwvi/WiiNunchuck_Prefix.pch.gch WiiNunchuck_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app
+s295990267.636634
+e295990267.642005
+r1
+xTouch
+x/Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app
+lSLF07#2@102"Touch /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app295990267#295990267#0(0"0(0#0#0"4300911832#310"    cd /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/build/Debug-iphonesimulator/WiiNunchuck.app0#
+

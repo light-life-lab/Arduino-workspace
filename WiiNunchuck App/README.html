@@ -1,0 +1,194 @@
+<html>
+	<head>
+		<style><!--
+			body		{width: 80%; margin: 5% 10%; font-family: "Lucida-Grande", "Tahoma", sans-serif; background-color: #DDDEFF;}
+			p			{text-indent: 3em;}
+			.divider	{width: 40%; float: left; margin: 20px 0;}
+		--></style>
+	</head>
+	<body>
+	
+	<h1>iPhone Protocol for Sending Serial Datastream via Line-in Jack</h1>
+	<h4><em>Thanks for downloading this bundle!</em></h4>
+
+	<h2>Hardware</h2>
+	<p>This collection of files provides the foundation to send a serial stream of data to the iPhone through the line-in 
+	conductor of headphone jack from an Arduino micro-controller.  Although you could accomplish this feat with minimal 
+	hardware, the following components are recommended, and will be referenced throughout this document:
+	</p>
+	
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>Component</th>
+			<th>What we used</th>
+		</tr>
+		<tr>
+			<td>Arduino micro-controller</td>
+			<td>(Duemilanove ATmega 328)</td>
+		</tr>
+		<tr>
+			<td>iPhone/iPod touch</td>
+			<td>(iPhone 3GS)</td>
+		</tr>
+		<tr>
+			<td>4-pin (TRRS) 1/8" connector</td>
+			<td>(on sale <a href="http://www.kvconnection.com/3-5mm-4-Conductor-Cable-Connectors-s/5915.htm">here)</a></td>
+		</tr>
+		<!--
+		<tr>
+			<td></td>
+			<td>()</td>
+		</tr>
+		-->
+	</table>
+
+<hr>
+	<p>A brief note: this project is in its infancy of development, and is are assuredly much room for improvement.  
+	If you have any changes you'd like to make, please let me know or post the changes wherever you found this code 
+	in the first place.
+	</p>
+<hr>
+
+	<h2>Software (included)</h2>
+	<p>Below is a list of the files included in the main classes directory of the Xcode project of this download.
+	A brief explination of each file is listed to the right.
+	</p>
+
+	<h3>Xcode: Main Class Files</h3>
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><em>SineMaker</em> (h/m)</td>
+			<td>Sine generator class which creates, plays and stops the sine wave(s), and adds an optional tremolo effect.</td>
+		</tr>
+		<tr>
+			<td><em>avTouchController</em> (h/mm)</td>
+			<td>Class borrowed from Apple's sample code; enables music playback (utilized on the MusicView).</td>
+		</tr>
+		<tr>
+			<td><em>WiiNunchuckAppDelegate</em> (h/mm)</td>
+			<td>Application delegate, instantiates the MUEAudioIO object, as well as the SampleAudioUnit.</td>
+		</tr>
+		<tr>
+			<td><em>MainViewController</em> (h/mm)</td>
+			<td>Represents the "Synthesize" view in the app, reads all received values from input stream, declares sound
+			objects to be played back, and monitors changing values while synced with the Arduino.</td>
+		</tr>
+		<tr>
+			<td><em>SettingsViewController</em> (h/mm)</td>
+			<td>Monitors all user-changeable parameters, including synth modes, use of iPhone acceleration, and number of sine tones.</td>
+		</tr>
+		<tr>
+			<td><em>SampleAudioUnit</em> (h/mm)</td>
+			<td>Audio-processing shell which parses the incomming stream of audio and breaks apart the pulses received into 
+			intelligible binary values.  The values are also collected, averaged, and sent to the MainViewController from this file.</td>
+		</tr>
+		<tr>
+			<td><em>AboutViewController</em> (h/m)</td>
+			<td>View controller managing the AboutView (empty).</td>
+		</tr>
+		<tr>
+			<td><em>InfoViewController</em> (h/m)</td>
+			<td>View controller managing the InfoView, consiting of a simple WebView and infoButton.</td>
+		</tr>
+	</table>
+	
+	<p>Within the Xcode project's classes folder, two subgroups exist, each with its own files.  The <em>AVPlayback</em> 
+	group contains files copied verbatim from a sample project available on Apple's developer website, and the contents of
+	which are used for music playback on the <em>Music</em> tab of the iPhone application.  Therefore, I will not go
+	detail describing code I did not write.
+	</p>
+	<p>The <em>MUEAudioIO</em> subgroup is a set of files which initializes the audio session for the iPhone application, and handles the input
+	stream of audio from the currently active input route.  A buffering structure is set up to allow for access to the incoming samples from within 
+	the <em>SampleAudioUnit</em> file.  Much thanks to Chris Santoro who wrote this class, and was kind enough to pass it on to us.
+	</p>
+	
+	<h3>Xcode: MUEAudioIO Files</h3>
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><em>Filter</em> (h/cpp)</td>
+			<td>A class designed to implement a digital filter from a set of coefficients (difference equation).  This code is not 
+			utilized by the Wii Nunchuck application.</td>
+		</tr>
+		<tr>
+			<td><em>AudioBasics</em> (h/cpp)</td>
+			<td>Constants set regarding the audio stream expected coming into the iPhone, as well as some utility functions for converting sample values.</td>
+		</tr>
+		<tr>
+			<td><em>CADebugMacros</em> (h/cpp)</td>
+			<td>"Helper class for printing debug messages"</td>
+		</tr>
+		<tr>
+			<td><em>CAStreamBasicDescription</em> (h/cpp)</td>
+			<td>"Helper class for audio stream descriptions"</td>
+		</tr>
+		<tr>
+			<td><em>MUEAudioUnit</em> (h)</td>
+			<td>This is the AudioUnit template which can be used to inspect the incoming audio stream frame-by-frame.  This shell is primarily
+			designed to process audio with effects, but monitoring the input stream can be accomplished as well (as done in the Wii Nunchuck application).
+			This is the class you will subclass to process your audio.</td>
+		</tr>
+		<tr>
+			<td><em>MUEAudioIO</em> (h/cpp)</td>
+			<td>Configures the audio session, as well as handles administrative callback functions such as route-changes, interrupt handling, and 
+			preferred buffering sizes.</td>
+		</tr>
+	</table>
+	
+<hr class="divider">
+	
+	<h3 style="clear: both;">Arduino: Main Class Files</h3>
+	<table cellspacing="4" cellpadding="4">
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><em>iPhone_Input_withButtons</em> (pde)</td>
+            <td>Reads data from the Arduino micro-controller, and transmits out pulses (either a digital HIGH or LOW) for varying durations to form a
+            binary string of 8-bit numbers.  This code can be configured to receive data from any of the Arduino's inputs, and thus allows control by any
+            devices that can be hooked up to the micro-controller.</td>
+        </tr>
+        <tr>
+			<td><em>nunchuch_funcs</em> (h)</td>
+            <td>Contains functions that interpret data from the WiiNunchuck breakout board (used in this project).  Inspect the <em>setup()</em> function from
+            the <em>iPhone_Input_withButtons.pde</em> file to see how the initialization functions are called to create a link between the WiiNunchuck and the
+            Arduino.  These functions were borrowed from <a href="http://www.arduino.cc">Arduino's website</a>.</td>
+		</tr>
+	</table>
+
+<hr>
+
+	<h2>About the Developers</h2>
+
+	<img src="Images/beans.gif" ALT="" style="float: right; margin: 0 15px 15px 15px; border: 1px solid black;" />
+	
+	<p><a href="http://www.samdrazin.com">Sam Drazin</a> and <a href="http://ebertot.pbworks.com">Eddie Bertot</a> are a couple
+	of lazy joes with not much more than a few bright ideas, and an overwhelming and constant thirst for beer.  Both recent
+	graduates of the <a href="http://mue.music.miami.edu">Music Engineering</a> program of the <a href="http://www.miami.edu">University of Miami</a>,
+	these two youngsters share interests in software/hardware hacking of audio equipment, playing jazz standards, and of course a Cuban pastelito
+	every now and then.
+	</p>
+	
+	<p>The protocol documented above represents a semester's worth of work for an
+	<a href="mue.music.miami.edu/wiki/index.php/MMI593_DSP_for_Embedded_Music_Electronics_-_Spring_2010">Embedded Systems course</a> taught within the
+	<a href="http://mue.music.miami.edu">Music Engineering</a> Department of the <a href="http://www.miami.edu">University of Miami</a>.  For more
+	information on the project that fostered the development of this protocol, refer to <a href="http://www.samdrazin.com/classes/mmi593/finalproject">
+	Sam's Project Website</a>.  The	course focused on introductory concerns in design and implementation of embedded systems, as well as several crash
+	courses in platforms including the Arduino IDE (Wiring/Processing), Android, and iPhone.
+	</p>
+	<!--
+	<img src="Images/umiami.jpg" style="z-index: 1; width: 45; border: 1px solid black; position: relative; top: 140px; left: 1070px;" />
+	-->
+
+
+
+	</body>
+</html>

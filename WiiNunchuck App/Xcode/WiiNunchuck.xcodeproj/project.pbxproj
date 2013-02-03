@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* WiiNunchuckAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* WiiNunchuckAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F40FCA3E117EBA1C002A9011 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40FCA3D117EBA1C002A9011 /* AboutView.xib */; };
+		F40FCA43117EBBC4002A9011 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40FCA42117EBBC4002A9011 /* AboutViewController.m */; };
+		F411586A1178CE190082BD37 /* SineMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F41158691178CE190082BD37 /* SineMaker.m */; };
+		F425BACE1172406900D8A1F4 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F425BACD1172406900D8A1F4 /* MainViewController.mm */; };
+		F425BAD11172407600D8A1F4 /* SettingsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F425BAD01172407600D8A1F4 /* SettingsViewController.mm */; };
+		F425BAD31172409F00D8A1F4 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F425BAD21172409F00D8A1F4 /* MainView.xib */; };
+		F425BAD5117240A700D8A1F4 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F425BAD4117240A700D8A1F4 /* SettingsView.xib */; };
+		F425BAF41172452800D8A1F4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F425BAF21172452800D8A1F4 /* icon.png */; };
+		F425BAF51172452800D8A1F4 /* music_note_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F425BAF31172452800D8A1F4 /* music_note_grey.png */; };
+		F425BB0F1172466000D8A1F4 /* wii_nunchuk.png in Resources */ = {isa = PBXBuildFile; fileRef = F425BB0E1172466000D8A1F4 /* wii_nunchuk.png */; };
+		F425BBA411724FE000D8A1F4 /* nunchuck_adapter.png in Resources */ = {isa = PBXBuildFile; fileRef = F425BBA311724FE000D8A1F4 /* nunchuck_adapter.png */; };
+		F425BBC9117251CC00D8A1F4 /* AudioBasics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F425BBBF117251CC00D8A1F4 /* AudioBasics.cpp */; };
+		F425BBCA117251CC00D8A1F4 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F425BBC1117251CC00D8A1F4 /* CADebugMacros.cpp */; };
+		F425BBCB117251CC00D8A1F4 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F425BBC4117251CC00D8A1F4 /* CAStreamBasicDescription.cpp */; };
+		F425BBCC117251CC00D8A1F4 /* MUEAudioIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F425BBC6117251CC00D8A1F4 /* MUEAudioIO.cpp */; };
+		F425BBCF117251D500D8A1F4 /* SampleAudioUnit.mm in Sources */ = {isa = PBXBuildFile; fileRef = F425BBCD117251D500D8A1F4 /* SampleAudioUnit.mm */; };
+		F428F461119A375D00097DF4 /* avTouchController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F428F45E119A375D00097DF4 /* avTouchController.mm */; };
+		F428F462119A375D00097DF4 /* CALevelMeter.mm in Sources */ = {isa = PBXBuildFile; fileRef = F428F460119A375D00097DF4 /* CALevelMeter.mm */; };
+		F428F464119A382A00097DF4 /* bubbles.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F428F463119A382A00097DF4 /* bubbles.m4a */; };
+		F428F46B119A385B00097DF4 /* GLLevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = F428F468119A385B00097DF4 /* GLLevelMeter.m */; };
+		F428F46C119A385B00097DF4 /* LevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = F428F46A119A385B00097DF4 /* LevelMeter.m */; };
+		F428F48B119A38E500097DF4 /* MusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F428F48A119A38E500097DF4 /* MusicView.xib */; };
+		F428F4A1119A39C100097DF4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428F4A0119A39C100097DF4 /* OpenGLES.framework */; };
+		F428F4A3119A39C100097DF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428F4A2119A39C100097DF4 /* QuartzCore.framework */; };
+		F428F4B8119A3A3E00097DF4 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F428F4B6119A3A3E00097DF4 /* MeterTable.cpp */; };
+		F428F4C8119A3BCE00097DF4 /* avTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F428F4C7119A3BCE00097DF4 /* avTouchViewController.m */; };
+		F428F4D9119A3D2000097DF4 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D1119A3D2000097DF4 /* forward.png */; };
+		F428F4DA119A3D2000097DF4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D2119A3D2000097DF4 /* pause.png */; };
+		F428F4DB119A3D2000097DF4 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D3119A3D2000097DF4 /* play.png */; };
+		F428F4DC119A3D2000097DF4 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D4119A3D2000097DF4 /* rewind.png */; };
+		F428F4DD119A3D2000097DF4 /* sound_meter_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D5119A3D2000097DF4 /* sound_meter_background.png */; };
+		F428F4DE119A3D2000097DF4 /* sound_meter_glare.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D6119A3D2000097DF4 /* sound_meter_glare.png */; };
+		F428F4DF119A3D2000097DF4 /* volume_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D7119A3D2000097DF4 /* volume_down.png */; };
+		F428F4E0119A3D2000097DF4 /* volume_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F428F4D8119A3D2000097DF4 /* volume_up.png */; };
+		F428F4F0119A3EA900097DF4 /* wiichuck_with_arduino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F428F4EF119A3EA900097DF4 /* wiichuck_with_arduino.jpg */; };
+		F428F539119A636700097DF4 /* ocean.caf in Resources */ = {isa = PBXBuildFile; fileRef = F428F537119A635F00097DF4 /* ocean.caf */; };
+		F428F632119B045200097DF4 /* ambient_city.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F428F631119B045200097DF4 /* ambient_city.aiff */; };
+		F428F638119B05D100097DF4 /* eightys_skyline.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F428F637119B05D100097DF4 /* eightys_skyline.aiff */; };
+		F428F68C119B0D7100097DF4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428F68B119B0D7100097DF4 /* AVFoundation.framework */; };
+		F448264E117EA4A300D49468 /* wii_nunchuck_xray.png in Resources */ = {isa = PBXBuildFile; fileRef = F448264D117EA4A300D49468 /* wii_nunchuck_xray.png */; };
+		F4497950118A9D030047DB68 /* sine_mini.png in Resources */ = {isa = PBXBuildFile; fileRef = F449794F118A9D030047DB68 /* sine_mini.png */; };
+		F4548EAD117EAFAA0023F7A5 /* wiichuck_adapter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4548EAC117EAFAA0023F7A5 /* wiichuck_adapter.jpg */; };
+		F4548EB6117EB18F0023F7A5 /* coffee_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4548EB5117EB18F0023F7A5 /* coffee_icon.png */; };
+		F458A22B1184D01A003BD1D2 /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = F458A2291184D01A003BD1D2 /* magnify.png */; };
+		F47DC36B11A3385A00C7EAE9 /* README.html in Resources */ = {isa = PBXBuildFile; fileRef = F47DC36A11A3385A00C7EAE9 /* README.html */; };
+		F47DC36E11A3462A00C7EAE9 /* sam_and_eddie.gif in Resources */ = {isa = PBXBuildFile; fileRef = F47DC36D11A3462A00C7EAE9 /* sam_and_eddie.gif */; };
+		F47DC37111A3477C00C7EAE9 /* sae1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47DC37011A3477C00C7EAE9 /* sae1.jpg */; };
+		F47DC37311A348CE00C7EAE9 /* beans.gif in Resources */ = {isa = PBXBuildFile; fileRef = F47DC37211A348CE00C7EAE9 /* beans.gif */; };
+		F47DC37511A3495F00C7EAE9 /* umiami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47DC37411A3495F00C7EAE9 /* umiami.jpg */; };
+		F4841D981172C9EF0034AF4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4841D971172C9EF0034AF4B /* AudioToolbox.framework */; };
+		F4841E5A1172D50E0034AF4B /* Filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4841E581172D50E0034AF4B /* Filter.cpp */; };
+		F49A118E1184D07D005E3D0E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A118D1184D07D005E3D0E /* InfoViewController.m */; };
+		F49A11B31184D37E005E3D0E /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49A11B21184D37E005E3D0E /* InfoView.xib */; };
+		F49A12CB1184E637005E3D0E /* weird_wah.aif in Resources */ = {isa = PBXBuildFile; fileRef = F49A12CA1184E637005E3D0E /* weird_wah.aif */; };
+		F49A12D51184E8E9005E3D0E /* cool_wind_scrape.aif in Resources */ = {isa = PBXBuildFile; fileRef = F49A12D11184E8E9005E3D0E /* cool_wind_scrape.aif */; };
+		F49A12D61184E8E9005E3D0E /* low_bubble.aif in Resources */ = {isa = PBXBuildFile; fileRef = F49A12D21184E8E9005E3D0E /* low_bubble.aif */; };
+		F49A12D71184E8E9005E3D0E /* low_rising_bubbles.aif in Resources */ = {isa = PBXBuildFile; fileRef = F49A12D31184E8E9005E3D0E /* low_rising_bubbles.aif */; };
+		F49A12D81184E8E9005E3D0E /* vibraslap.aif in Resources */ = {isa = PBXBuildFile; fileRef = F49A12D41184E8E9005E3D0E /* vibraslap.aif */; };
+		F4B25D011183BEC8009BA0D3 /* blue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B25CFF1183BEC8009BA0D3 /* blue_button.png */; };
+		F4B25D021183BEC8009BA0D3 /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B25D001183BEC8009BA0D3 /* green_button.png */; };
+		F4B25D94118484D9009BA0D3 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F4B25D93118484D9009BA0D3 /* info.html */; };
+		F4B7E023118B4C6C002FEAD1 /* drum_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B7E022118B4C6C002FEAD1 /* drum_icon.png */; };
+		F4B7E025118B4E31002FEAD1 /* sine_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B7E024118B4E31002FEAD1 /* sine_icon.png */; };
+		F4B7E029118B5AC1002FEAD1 /* sine_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B7E028118B5AC1002FEAD1 /* sine_icon2.png */; };
+		F4B7E02B118B5BA1002FEAD1 /* meter_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B7E02A118B5BA1002FEAD1 /* meter_icon.png */; };
+		F4B7E02D118B5C7D002FEAD1 /* headphone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B7E02C118B5C7D002FEAD1 /* headphone_icon.png */; };
+		F4FEF1D611927B2D00E51E9E /* wii_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FEF1D511927B2D00E51E9E /* wii_logo2.png */; };
+		F4FEF1D811927DA000E51E9E /* nunchuck_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FEF1D711927DA000E51E9E /* nunchuck_banner.png */; };
+		F4FFF87511824ACE000D9C7B /* kick.caf in Resources */ = {isa = PBXBuildFile; fileRef = F4FFF87111824ACE000D9C7B /* kick.caf */; };
+		F4FFF87711824ACE000D9C7B /* open_hat.caf in Resources */ = {isa = PBXBuildFile; fileRef = F4FFF87311824ACE000D9C7B /* open_hat.caf */; };
+		F4FFF87811824ACE000D9C7B /* snare.caf in Resources */ = {isa = PBXBuildFile; fileRef = F4FFF87411824ACE000D9C7B /* snare.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* WiiNunchuckAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiNunchuckAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* WiiNunchuckAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WiiNunchuckAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* WiiNunchuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiNunchuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* WiiNunchuck_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiNunchuck_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* WiiNunchuck-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiiNunchuck-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F40FCA3D117EBA1C002A9011 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		F40FCA41117EBBC4002A9011 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		F40FCA42117EBBC4002A9011 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		F41158681178CE190082BD37 /* SineMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SineMaker.h; sourceTree = "<group>"; };
+		F41158691178CE190082BD37 /* SineMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SineMaker.m; sourceTree = "<group>"; };
+		F425BACC1172406900D8A1F4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F425BACD1172406900D8A1F4 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		F425BACF1172407600D8A1F4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F425BAD01172407600D8A1F4 /* SettingsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsViewController.mm; sourceTree = "<group>"; };
+		F425BAD21172409F00D8A1F4 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		F425BAD4117240A700D8A1F4 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		F425BAF21172452800D8A1F4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/icon.png; sourceTree = "<absolute>"; };
+		F425BAF31172452800D8A1F4 /* music_note_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music_note_grey.png; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/music_note_grey.png; sourceTree = "<absolute>"; };
+		F425BB0E1172466000D8A1F4 /* wii_nunchuk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wii_nunchuk.png; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/wii_nunchuk.png; sourceTree = "<absolute>"; };
+		F425BBA311724FE000D8A1F4 /* nunchuck_adapter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nunchuck_adapter.png; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/nunchuck_adapter.png; sourceTree = "<absolute>"; };
+		F425BBBF117251CC00D8A1F4 /* AudioBasics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioBasics.cpp; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.cpp; sourceTree = "<absolute>"; };
+		F425BBC0117251CC00D8A1F4 /* AudioBasics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioBasics.h; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/AudioBasics.h; sourceTree = "<absolute>"; };
+		F425BBC1117251CC00D8A1F4 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CADebugMacros.cpp; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.cpp; sourceTree = "<absolute>"; };
+		F425BBC2117251CC00D8A1F4 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CADebugMacros.h; sourceTree = "<absolute>"; };
+		F425BBC3117251CC00D8A1F4 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMath.h; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAMath.h; sourceTree = "<absolute>"; };
+		F425BBC4117251CC00D8A1F4 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.cpp; sourceTree = "<absolute>"; };
+		F425BBC5117251CC00D8A1F4 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/CAStreamBasicDescription.h; sourceTree = "<absolute>"; };
+		F425BBC6117251CC00D8A1F4 /* MUEAudioIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MUEAudioIO.cpp; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.cpp; sourceTree = "<absolute>"; };
+		F425BBC7117251CC00D8A1F4 /* MUEAudioIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUEAudioIO.h; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioIO.h; sourceTree = "<absolute>"; };
+		F425BBC8117251CC00D8A1F4 /* MUEAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUEAudioUnit.h; path = /Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/MUEAudioUnit.h; sourceTree = "<absolute>"; };
+		F425BBCD117251D500D8A1F4 /* SampleAudioUnit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SampleAudioUnit.mm; sourceTree = "<group>"; };
+		F425BBCE117251D500D8A1F4 /* SampleAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAudioUnit.h; sourceTree = "<group>"; };
+		F428F45D119A375D00097DF4 /* avTouchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avTouchController.h; sourceTree = "<group>"; };
+		F428F45E119A375D00097DF4 /* avTouchController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = avTouchController.mm; sourceTree = "<group>"; };
+		F428F45F119A375D00097DF4 /* CALevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALevelMeter.h; sourceTree = "<group>"; };
+		F428F460119A375D00097DF4 /* CALevelMeter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CALevelMeter.mm; sourceTree = "<group>"; };
+		F428F463119A382A00097DF4 /* bubbles.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubbles.m4a; sourceTree = "<group>"; };
+		F428F467119A385B00097DF4 /* GLLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLevelMeter.h; sourceTree = "<group>"; };
+		F428F468119A385B00097DF4 /* GLLevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLevelMeter.m; sourceTree = "<group>"; };
+		F428F469119A385B00097DF4 /* LevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeter.h; sourceTree = "<group>"; };
+		F428F46A119A385B00097DF4 /* LevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeter.m; sourceTree = "<group>"; };
+		F428F48A119A38E500097DF4 /* MusicView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicView.xib; sourceTree = "<group>"; };
+		F428F4A0119A39C100097DF4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F428F4A2119A39C100097DF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F428F4B6119A3A3E00097DF4 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		F428F4B7119A3A3E00097DF4 /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		F428F4C6119A3BCE00097DF4 /* avTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avTouchViewController.h; sourceTree = "<group>"; };
+		F428F4C7119A3BCE00097DF4 /* avTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = avTouchViewController.m; sourceTree = "<group>"; };
+		F428F4D1119A3D2000097DF4 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		F428F4D2119A3D2000097DF4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F428F4D3119A3D2000097DF4 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F428F4D4119A3D2000097DF4 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		F428F4D5119A3D2000097DF4 /* sound_meter_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound_meter_background.png; sourceTree = "<group>"; };
+		F428F4D6119A3D2000097DF4 /* sound_meter_glare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound_meter_glare.png; sourceTree = "<group>"; };
+		F428F4D7119A3D2000097DF4 /* volume_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_down.png; sourceTree = "<group>"; };
+		F428F4D8119A3D2000097DF4 /* volume_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_up.png; sourceTree = "<group>"; };
+		F428F4EF119A3EA900097DF4 /* wiichuck_with_arduino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wiichuck_with_arduino.jpg; sourceTree = "<group>"; };
+		F428F537119A635F00097DF4 /* ocean.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean.caf; sourceTree = "<group>"; };
+		F428F631119B045200097DF4 /* ambient_city.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ambient_city.aiff; sourceTree = "<group>"; };
+		F428F637119B05D100097DF4 /* eightys_skyline.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = eightys_skyline.aiff; sourceTree = "<group>"; };
+		F428F68B119B0D7100097DF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F448264D117EA4A300D49468 /* wii_nunchuck_xray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wii_nunchuck_xray.png; sourceTree = "<group>"; };
+		F449794F118A9D030047DB68 /* sine_mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sine_mini.png; sourceTree = "<group>"; };
+		F4548EAC117EAFAA0023F7A5 /* wiichuck_adapter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wiichuck_adapter.jpg; sourceTree = "<group>"; };
+		F4548EB5117EB18F0023F7A5 /* coffee_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee_icon.png; sourceTree = "<group>"; };
+		F458A2291184D01A003BD1D2 /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
+		F47DC36A11A3385A00C7EAE9 /* README.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = README.html; sourceTree = "<group>"; };
+		F47DC36D11A3462A00C7EAE9 /* sam_and_eddie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sam_and_eddie.gif; sourceTree = "<group>"; };
+		F47DC37011A3477C00C7EAE9 /* sae1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sae1.jpg; sourceTree = "<group>"; };
+		F47DC37211A348CE00C7EAE9 /* beans.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = beans.gif; sourceTree = "<group>"; };
+		F47DC37411A3495F00C7EAE9 /* umiami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umiami.jpg; sourceTree = "<group>"; };
+		F4841D971172C9EF0034AF4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F4841E581172D50E0034AF4B /* Filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Filter.cpp; path = ../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.cpp; sourceTree = SDKROOT; };
+		F4841E591172D50E0034AF4B /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter.h; path = ../../../../../../Users/sdrazin/Documents/Programs/iPhone/WiiNunchuck/Classes/Filter.h; sourceTree = SDKROOT; };
+		F49A118C1184D07D005E3D0E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		F49A118D1184D07D005E3D0E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		F49A11B21184D37E005E3D0E /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		F49A12CA1184E637005E3D0E /* weird_wah.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = weird_wah.aif; sourceTree = "<group>"; };
+		F49A12D11184E8E9005E3D0E /* cool_wind_scrape.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = cool_wind_scrape.aif; sourceTree = "<group>"; };
+		F49A12D21184E8E9005E3D0E /* low_bubble.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = low_bubble.aif; sourceTree = "<group>"; };
+		F49A12D31184E8E9005E3D0E /* low_rising_bubbles.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = low_rising_bubbles.aif; sourceTree = "<group>"; };
+		F49A12D41184E8E9005E3D0E /* vibraslap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = vibraslap.aif; sourceTree = "<group>"; };
+		F4B25CFF1183BEC8009BA0D3 /* blue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_button.png; sourceTree = "<group>"; };
+		F4B25D001183BEC8009BA0D3 /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button.png; sourceTree = "<group>"; };
+		F4B25D93118484D9009BA0D3 /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		F4B7E022118B4C6C002FEAD1 /* drum_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drum_icon.png; sourceTree = "<group>"; };
+		F4B7E024118B4E31002FEAD1 /* sine_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sine_icon.png; sourceTree = "<group>"; };
+		F4B7E028118B5AC1002FEAD1 /* sine_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sine_icon2.png; sourceTree = "<group>"; };
+		F4B7E02A118B5BA1002FEAD1 /* meter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_icon.png; sourceTree = "<group>"; };
+		F4B7E02C118B5C7D002FEAD1 /* headphone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphone_icon.png; sourceTree = "<group>"; };
+		F4FEF1D511927B2D00E51E9E /* wii_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wii_logo2.png; sourceTree = "<group>"; };
+		F4FEF1D711927DA000E51E9E /* nunchuck_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nunchuck_banner.png; sourceTree = "<group>"; };
+		F4FFF87111824ACE000D9C7B /* kick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kick.caf; sourceTree = "<group>"; };
+		F4FFF87311824ACE000D9C7B /* open_hat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = open_hat.caf; sourceTree = "<group>"; };
+		F4FFF87411824ACE000D9C7B /* snare.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = snare.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F4841D981172C9EF0034AF4B /* AudioToolbox.framework in Frameworks */,
+				F428F4A1119A39C100097DF4 /* OpenGLES.framework in Frameworks */,
+				F428F4A3119A39C100097DF4 /* QuartzCore.framework in Frameworks */,
+				F428F68C119B0D7100097DF4 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F47DC36A11A3385A00C7EAE9 /* README.html */,
+				F428F45C119A374E00097DF4 /* AVPlayback */,
+				F425BBD1117251E000D8A1F4 /* MUEAudioIO */,
+				F41158681178CE190082BD37 /* SineMaker.h */,
+				F41158691178CE190082BD37 /* SineMaker.m */,
+				F428F45D119A375D00097DF4 /* avTouchController.h */,
+				F428F45E119A375D00097DF4 /* avTouchController.mm */,
+				1D3623240D0F684500981E51 /* WiiNunchuckAppDelegate.h */,
+				1D3623250D0F684500981E51 /* WiiNunchuckAppDelegate.mm */,
+				F425BACC1172406900D8A1F4 /* MainViewController.h */,
+				F425BACD1172406900D8A1F4 /* MainViewController.mm */,
+				F425BACF1172407600D8A1F4 /* SettingsViewController.h */,
+				F425BAD01172407600D8A1F4 /* SettingsViewController.mm */,
+				F425BBCE117251D500D8A1F4 /* SampleAudioUnit.h */,
+				F425BBCD117251D500D8A1F4 /* SampleAudioUnit.mm */,
+				F40FCA41117EBBC4002A9011 /* AboutViewController.h */,
+				F40FCA42117EBBC4002A9011 /* AboutViewController.m */,
+				F49A118C1184D07D005E3D0E /* InfoViewController.h */,
+				F49A118D1184D07D005E3D0E /* InfoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WiiNunchuck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WiiNunchuck_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F449794B118A9BC00047DB68 /* Sounds */,
+				F449794A118A9BB70047DB68 /* Images */,
+				F4B25D93118484D9009BA0D3 /* info.html */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F425BAD21172409F00D8A1F4 /* MainView.xib */,
+				F425BAD4117240A700D8A1F4 /* SettingsView.xib */,
+				8D1107310486CEB800E47090 /* WiiNunchuck-Info.plist */,
+				F40FCA3D117EBA1C002A9011 /* AboutView.xib */,
+				F49A11B21184D37E005E3D0E /* InfoView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F4841D971172C9EF0034AF4B /* AudioToolbox.framework */,
+				F428F4A0119A39C100097DF4 /* OpenGLES.framework */,
+				F428F4A2119A39C100097DF4 /* QuartzCore.framework */,
+				F428F68B119B0D7100097DF4 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F425BBD1117251E000D8A1F4 /* MUEAudioIO */ = {
+			isa = PBXGroup;
+			children = (
+				F4841E591172D50E0034AF4B /* Filter.h */,
+				F4841E581172D50E0034AF4B /* Filter.cpp */,
+				F425BBC0117251CC00D8A1F4 /* AudioBasics.h */,
+				F425BBBF117251CC00D8A1F4 /* AudioBasics.cpp */,
+				F425BBC2117251CC00D8A1F4 /* CADebugMacros.h */,
+				F425BBC1117251CC00D8A1F4 /* CADebugMacros.cpp */,
+				F425BBC3117251CC00D8A1F4 /* CAMath.h */,
+				F425BBC5117251CC00D8A1F4 /* CAStreamBasicDescription.h */,
+				F425BBC4117251CC00D8A1F4 /* CAStreamBasicDescription.cpp */,
+				F425BBC7117251CC00D8A1F4 /* MUEAudioIO.h */,
+				F425BBC6117251CC00D8A1F4 /* MUEAudioIO.cpp */,
+				F425BBC8117251CC00D8A1F4 /* MUEAudioUnit.h */,
+			);
+			name = MUEAudioIO;
+			sourceTree = "<group>";
+		};
+		F428F45C119A374E00097DF4 /* AVPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				F428F4C6119A3BCE00097DF4 /* avTouchViewController.h */,
+				F428F4C7119A3BCE00097DF4 /* avTouchViewController.m */,
+				F428F4B6119A3A3E00097DF4 /* MeterTable.cpp */,
+				F428F4B7119A3A3E00097DF4 /* MeterTable.h */,
+				F428F467119A385B00097DF4 /* GLLevelMeter.h */,
+				F428F468119A385B00097DF4 /* GLLevelMeter.m */,
+				F428F469119A385B00097DF4 /* LevelMeter.h */,
+				F428F46A119A385B00097DF4 /* LevelMeter.m */,
+				F428F45F119A375D00097DF4 /* CALevelMeter.h */,
+				F428F460119A375D00097DF4 /* CALevelMeter.mm */,
+				F428F48A119A38E500097DF4 /* MusicView.xib */,
+			);
+			name = AVPlayback;
+			sourceTree = "<group>";
+		};
+		F449794A118A9BB70047DB68 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F47DC37411A3495F00C7EAE9 /* umiami.jpg */,
+				F47DC37211A348CE00C7EAE9 /* beans.gif */,
+				F47DC36D11A3462A00C7EAE9 /* sam_and_eddie.gif */,
+				F47DC37011A3477C00C7EAE9 /* sae1.jpg */,
+				F428F4EF119A3EA900097DF4 /* wiichuck_with_arduino.jpg */,
+				F428F4D1119A3D2000097DF4 /* forward.png */,
+				F428F4D2119A3D2000097DF4 /* pause.png */,
+				F428F4D3119A3D2000097DF4 /* play.png */,
+				F428F4D4119A3D2000097DF4 /* rewind.png */,
+				F428F4D5119A3D2000097DF4 /* sound_meter_background.png */,
+				F428F4D6119A3D2000097DF4 /* sound_meter_glare.png */,
+				F428F4D7119A3D2000097DF4 /* volume_down.png */,
+				F428F4D8119A3D2000097DF4 /* volume_up.png */,
+				F4FEF1D711927DA000E51E9E /* nunchuck_banner.png */,
+				F4FEF1D511927B2D00E51E9E /* wii_logo2.png */,
+				F4B7E02C118B5C7D002FEAD1 /* headphone_icon.png */,
+				F4B7E02A118B5BA1002FEAD1 /* meter_icon.png */,
+				F4B7E028118B5AC1002FEAD1 /* sine_icon2.png */,
+				F4B7E024118B4E31002FEAD1 /* sine_icon.png */,
+				F4B7E022118B4C6C002FEAD1 /* drum_icon.png */,
+				F449794F118A9D030047DB68 /* sine_mini.png */,
+				F425BB0E1172466000D8A1F4 /* wii_nunchuk.png */,
+				F425BBA311724FE000D8A1F4 /* nunchuck_adapter.png */,
+				F425BAF31172452800D8A1F4 /* music_note_grey.png */,
+				F448264D117EA4A300D49468 /* wii_nunchuck_xray.png */,
+				F458A2291184D01A003BD1D2 /* magnify.png */,
+				F4B25CFF1183BEC8009BA0D3 /* blue_button.png */,
+				F4B25D001183BEC8009BA0D3 /* green_button.png */,
+				F4548EAC117EAFAA0023F7A5 /* wiichuck_adapter.jpg */,
+				F4548EB5117EB18F0023F7A5 /* coffee_icon.png */,
+				F425BAF21172452800D8A1F4 /* icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F449794B118A9BC00047DB68 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F428F631119B045200097DF4 /* ambient_city.aiff */,
+				F428F637119B05D100097DF4 /* eightys_skyline.aiff */,
+				F428F537119A635F00097DF4 /* ocean.caf */,
+				F428F463119A382A00097DF4 /* bubbles.m4a */,
+				F4FFF87111824ACE000D9C7B /* kick.caf */,
+				F4FFF87411824ACE000D9C7B /* snare.caf */,
+				F4FFF87311824ACE000D9C7B /* open_hat.caf */,
+				F49A12D11184E8E9005E3D0E /* cool_wind_scrape.aif */,
+				F49A12D21184E8E9005E3D0E /* low_bubble.aif */,
+				F49A12D31184E8E9005E3D0E /* low_rising_bubbles.aif */,
+				F49A12D41184E8E9005E3D0E /* vibraslap.aif */,
+				F49A12CA1184E637005E3D0E /* weird_wah.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* WiiNunchuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WiiNunchuck" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiNunchuck;
+			productName = WiiNunchuck;
+			productReference = 1D6058910D05DD3D006BFB54 /* WiiNunchuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WiiNunchuck" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WiiNunchuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F425BAD31172409F00D8A1F4 /* MainView.xib in Resources */,
+				F425BAD5117240A700D8A1F4 /* SettingsView.xib in Resources */,
+				F425BAF41172452800D8A1F4 /* icon.png in Resources */,
+				F425BAF51172452800D8A1F4 /* music_note_grey.png in Resources */,
+				F425BB0F1172466000D8A1F4 /* wii_nunchuk.png in Resources */,
+				F425BBA411724FE000D8A1F4 /* nunchuck_adapter.png in Resources */,
+				F448264E117EA4A300D49468 /* wii_nunchuck_xray.png in Resources */,
+				F4548EAD117EAFAA0023F7A5 /* wiichuck_adapter.jpg in Resources */,
+				F4548EB6117EB18F0023F7A5 /* coffee_icon.png in Resources */,
+				F40FCA3E117EBA1C002A9011 /* AboutView.xib in Resources */,
+				F4FFF87511824ACE000D9C7B /* kick.caf in Resources */,
+				F4FFF87711824ACE000D9C7B /* open_hat.caf in Resources */,
+				F4FFF87811824ACE000D9C7B /* snare.caf in Resources */,
+				F4B25D011183BEC8009BA0D3 /* blue_button.png in Resources */,
+				F4B25D021183BEC8009BA0D3 /* green_button.png in Resources */,
+				F4B25D94118484D9009BA0D3 /* info.html in Resources */,
+				F458A22B1184D01A003BD1D2 /* magnify.png in Resources */,
+				F49A11B31184D37E005E3D0E /* InfoView.xib in Resources */,
+				F49A12CB1184E637005E3D0E /* weird_wah.aif in Resources */,
+				F49A12D51184E8E9005E3D0E /* cool_wind_scrape.aif in Resources */,
+				F49A12D61184E8E9005E3D0E /* low_bubble.aif in Resources */,
+				F49A12D71184E8E9005E3D0E /* low_rising_bubbles.aif in Resources */,
+				F49A12D81184E8E9005E3D0E /* vibraslap.aif in Resources */,
+				F4497950118A9D030047DB68 /* sine_mini.png in Resources */,
+				F4B7E023118B4C6C002FEAD1 /* drum_icon.png in Resources */,
+				F4B7E025118B4E31002FEAD1 /* sine_icon.png in Resources */,
+				F4B7E029118B5AC1002FEAD1 /* sine_icon2.png in Resources */,
+				F4B7E02B118B5BA1002FEAD1 /* meter_icon.png in Resources */,
+				F4B7E02D118B5C7D002FEAD1 /* headphone_icon.png in Resources */,
+				F4FEF1D611927B2D00E51E9E /* wii_logo2.png in Resources */,
+				F4FEF1D811927DA000E51E9E /* nunchuck_banner.png in Resources */,
+				F428F464119A382A00097DF4 /* bubbles.m4a in Resources */,
+				F428F48B119A38E500097DF4 /* MusicView.xib in Resources */,
+				F428F4D9119A3D2000097DF4 /* forward.png in Resources */,
+				F428F4DA119A3D2000097DF4 /* pause.png in Resources */,
+				F428F4DB119A3D2000097DF4 /* play.png in Resources */,
+				F428F4DC119A3D2000097DF4 /* rewind.png in Resources */,
+				F428F4DD119A3D2000097DF4 /* sound_meter_background.png in Resources */,
+				F428F4DE119A3D2000097DF4 /* sound_meter_glare.png in Resources */,
+				F428F4DF119A3D2000097DF4 /* volume_down.png in Resources */,
+				F428F4E0119A3D2000097DF4 /* volume_up.png in Resources */,
+				F428F4F0119A3EA900097DF4 /* wiichuck_with_arduino.jpg in Resources */,
+				F428F539119A636700097DF4 /* ocean.caf in Resources */,
+				F428F632119B045200097DF4 /* ambient_city.aiff in Resources */,
+				F428F638119B05D100097DF4 /* eightys_skyline.aiff in Resources */,
+				F47DC36B11A3385A00C7EAE9 /* README.html in Resources */,
+				F47DC36E11A3462A00C7EAE9 /* sam_and_eddie.gif in Resources */,
+				F47DC37111A3477C00C7EAE9 /* sae1.jpg in Resources */,
+				F47DC37311A348CE00C7EAE9 /* beans.gif in Resources */,
+				F47DC37511A3495F00C7EAE9 /* umiami.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* WiiNunchuckAppDelegate.mm in Sources */,
+				F425BACE1172406900D8A1F4 /* MainViewController.mm in Sources */,
+				F425BAD11172407600D8A1F4 /* SettingsViewController.mm in Sources */,
+				F425BBC9117251CC00D8A1F4 /* AudioBasics.cpp in Sources */,
+				F425BBCA117251CC00D8A1F4 /* CADebugMacros.cpp in Sources */,
+				F425BBCB117251CC00D8A1F4 /* CAStreamBasicDescription.cpp in Sources */,
+				F425BBCC117251CC00D8A1F4 /* MUEAudioIO.cpp in Sources */,
+				F425BBCF117251D500D8A1F4 /* SampleAudioUnit.mm in Sources */,
+				F4841E5A1172D50E0034AF4B /* Filter.cpp in Sources */,
+				F411586A1178CE190082BD37 /* SineMaker.m in Sources */,
+				F40FCA43117EBBC4002A9011 /* AboutViewController.m in Sources */,
+				F49A118E1184D07D005E3D0E /* InfoViewController.m in Sources */,
+				F428F461119A375D00097DF4 /* avTouchController.mm in Sources */,
+				F428F462119A375D00097DF4 /* CALevelMeter.mm in Sources */,
+				F428F46B119A385B00097DF4 /* GLLevelMeter.m in Sources */,
+				F428F46C119A385B00097DF4 /* LevelMeter.m in Sources */,
+				F428F4B8119A3A3E00097DF4 /* MeterTable.cpp in Sources */,
+				F428F4C8119A3BCE00097DF4 /* avTouchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WiiNunchuck_Prefix.pch;
+				INFOPLIST_FILE = "WiiNunchuck-Info.plist";
+				PRODUCT_NAME = WiiNunchuck;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WiiNunchuck_Prefix.pch;
+				INFOPLIST_FILE = "WiiNunchuck-Info.plist";
+				PRODUCT_NAME = WiiNunchuck;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WiiNunchuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WiiNunchuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
